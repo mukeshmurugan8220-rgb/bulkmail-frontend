@@ -1,0 +1,24 @@
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 400px;
+  margin: 50px auto;
+}
+
+input,
+textarea {
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+textarea {
+  height: 110px;
+}
+
+button {
+  padding: 12px;
+  font-size: 16px;
+  cursor: pointer;
+}
