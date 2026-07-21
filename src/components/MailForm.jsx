@@ -20,7 +20,7 @@ function MailForm() {
       setLoading(true);
 
       const response = await axios.post(
-        "http://localhost:5000/api/mail/send",
+        "https://bulkmail-backend-jc1r.onrender.com/api/mail/send",
         {
           emails,
           subject,
